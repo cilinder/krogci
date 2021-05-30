@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    width: 70%;
+}
+
+.krog {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+.crta {
+    flex-grow: 1;
+    height: 4px;
+    background-color: gray;
+}
